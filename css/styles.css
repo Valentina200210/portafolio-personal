@@ -1,0 +1,151 @@
+:root{
+   --nord0: #2E3440;
+   --nord1: #3B4252;
+   --nord2: #434C5E;
+   --nord3: #4C566A;
+   --nord4: #D8DEE9;
+   --nord5: #E5E9F0;
+   --nord6: #ECEFF4;
+   --nord7: #8FBCBB;
+   --nord8: #88C0D0;
+   --nord9: #81A1C1;
+   --nord10: #5E81AC;
+   --nord11: #BF616A;
+   --nord12: #D08770;
+   --nord13: #EBCB8B;
+   --nord14: #A3BE8C;
+   --nord15: #B48EAD;
+   --font: BlinkMacSystemFont, -apple-system,"Copperplate", "Segoe UI","Roboto","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neu Helvetica","Arial",sans-serif;
+
+ }
+#navegador{
+   position: relative;
+   background: #ffffff;
+   height: 80px;
+   top: 0;
+}
+#navegador ul{
+   top: 0px;
+   list-style-type: none;
+   text-align: right;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#navegador li{
+   display: inline;
+   text-align: right;
+   margin: 0 10px 0 0;
+}
+#navegador li a {
+
+   padding: 2px 7px 2px 7px;
+   color: #666;
+   text-decoration: none;
+}
+#navegador li a:hover{
+   color: #182153;
+   font-weight: bold;
+}
+#portafolio{
+   position: absolute;
+   top: 0;
+   left: 10px;
+   width: 40%;
+   font-weight: bold;
+   color: #182153;
+}
+#menu{
+   position: absolute;
+   top: 30px;
+   right: 20px;
+   width: 60%;
+}
+body{
+   background-color:#a5c3e7;
+   font-family: var(--font);
+   background-image: url("../img/fondo2.jpg");
+   background-size: cover;
+   margin-top: 0;
+   margin-left: 0;
+   margin-right: 0;
+}
+#contenido{
+   position: relative;
+   width: 85%;
+   height: 900px;
+   background-color: white;
+   margin-left: auto;
+   margin-right: auto;
+   top: 5px;
+
+}
+#fotografia{
+   position: absolute;
+   width: 50%;
+   height: auto;
+   /*filter: grayscale(1);*/
+}
+#datos{
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   width: 50%;
+   color: #182153;
+}
+img {
+  width: 100%;
+  height: auto;
+  
+}
+#redes{
+   position: fixed;
+   background: #dee3ed;
+   width: 85%;
+   bottom: 0px;
+}
+
+#redes li a:hover{
+   color: #182153;
+}
+#redes li a {
+
+   padding: 2px 7px 2px 7px;
+   color: #666;
+   text-decoration: none;
+}
+#redes ul{
+   top: 0px;
+   list-style-type: none;
+   text-align: center;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#redes li{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+}
+#logo {
+  width: 40px;
+  height: 40px;
+}
+ul{
+   list-style-type: none;
+   text-align: center;
+}
+.alineacion{
+   text-align: left;
+}
+.sangria{
+   margin-left: 10px;
+}
+.sangria2{
+   margin-left: 15%;
+   margin-right: 10%;
+}
+#experiencia{
+   height: 320px;
+   overflow: scroll;
+}
+
+
